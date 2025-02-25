@@ -1,14 +1,14 @@
 # Heart Disease Prediction
-Overview
+
+## Overview  
 This project aims to develop a Machine Learning model to predict the presence of heart disease in a patient based on various health parameters. The model is trained using classification algorithms and evaluated using metrics like accuracy, precision, recall, and F1-score.
 
-Dataset
-Source:  Kaggle
-Number of Samples: 303
-Target Variable: target (1 = Heart disease, 0 = No heart disease)
+## Dataset  
+**Source:** Kaggle  
+**Number of Samples:** 303  
+**Target Variable:** `target` (1 = Heart disease, 0 = No heart disease)  
 
-
-## Features:
+## Features:  
 | Feature   | Description |
 |-----------|------------|
 | `age`     | Age of the patient |
@@ -25,7 +25,9 @@ Target Variable: target (1 = Heart disease, 0 = No heart disease)
 | `ca`      | Number of major vessels (0-3) colored by fluoroscopy |
 | `thal`    | Thalassemia (0-3, where 3 is abnormal) |
 
-## Project Steps
+---
+
+## Project Steps  
 
 1. **Data Preprocessing**  
    - Handling missing values  
@@ -38,13 +40,12 @@ Target Variable: target (1 = Heart disease, 0 = No heart disease)
 
 3. **Model Training**  
    Implementing various classification algorithms:  
-   - Logistic Regression   
-   - Decision Tree
-   - Random Forest 
-       
+   - Logistic Regression  
+   - Decision Tree  
+   - Random Forest  
 
 4. **Model Evaluation**  
-   - Comparing accuracy, precision, recall,  auc and F1-score  
+   - Comparing accuracy, precision, recall, AUC, and F1-score  
    - Selecting the best-performing model  
 
 5. **Hyperparameter Tuning**  
@@ -53,26 +54,44 @@ Target Variable: target (1 = Heart disease, 0 = No heart disease)
 6. **Final Prediction**  
    - Using the best-performing model to predict heart disease  
 
+---
 
-## 📊 Results
+## 📊 Results  
 
-### ✅ Best Model: Logistic Regression with Optimal Threshold  
-The evaluation metrics for the best-performing model are as follows:
+### ✅ Best Model: **Logistic Regression with Optimal Threshold**  
+The evaluation metrics for the best-performing model are as follows:  
 
 - **Precision:** 0.8788  
 - **Recall:** 0.9062  
 - **F1-Score:** 0.8923  
-- **Accuracy:** (Mention your accuracy score here)
+- **Accuracy:** **(Include your accuracy score here)**  
 
-### Confusion Matrix & ROC Curve  
-- Below are the performance visualizations:  
-  - **Confusion Matrix:**  
-    ![Confusion Matrix](path/to/confusion_matrix.png)  
-  - **ROC Curve:**  
-    ![ROC Curve](path/to/roc_curve.png)  
+Additionally, the confusion matrix and ROC curve provide a visual representation of the model's performance.  
+
+### **Confusion Matrix & ROC Curve**  
+Below are the performance visualizations:  
+
+- **Confusion Matrix:**  
+  ![Confusion Matrix](confusion_matrix.png)  
+
+- **ROC Curve:**  
+  ![ROC Curve](roc_curve.png)  
+
+---
+
+## 📌 How to Use This Project  
+
+### **1️⃣ Installation & Setup**  
+To run this project locally, follow these steps:  
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/kanna-vamshi-krishna/heart-disease-prediction.git
 
 
-Additionally, the confusion matrix and ROC curve can be used to analyze model performance visually.
+
+
+
 
 
 
