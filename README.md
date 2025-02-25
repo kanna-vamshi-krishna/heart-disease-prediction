@@ -3,7 +3,12 @@
 ## Overview  
 This project aims to develop a Machine Learning model to predict the presence of heart disease in a patient based on various health parameters. The model is trained using classification algorithms and evaluated using metrics like accuracy, precision, recall, and F1-score.
 
-## Dataset  
+## 📂 Dataset
+
+The dataset used in this project is `heart.csv`. Ensure it is placed in the same directory as the Jupyter Notebook before running the code.
+
+If you don't have the dataset, you can download it from [Kaggle](https://www.kaggle.com/datasets).
+
 **Source:** Kaggle  
 **Number of Samples:** 303  
 **Target Variable:** `target` (1 = Heart disease, 0 = No heart disease)  
