@@ -72,7 +72,7 @@ Additionally, the confusion matrix and ROC curve provide a visual representation
 Below are the performance visualizations:  
 
 - **Confusion Matrix:**  
-  ![Confusion Matrix](confusion_matrix.png)  
+  ![Confusion Matrix](confusion_matrix_.png)  
 
 - **ROC Curve:**  
   ![ROC Curve](roc_curve.png)  
